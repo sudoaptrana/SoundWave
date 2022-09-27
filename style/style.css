@@ -173,7 +173,7 @@ nav a {
     display: flex;
 } */
 
-@media(max-width: 1048px) {
+@media(max-width: 1100px) {
     #icon {
         display: none;
     }
@@ -192,12 +192,13 @@ nav a {
     .container2 {
         display: flex;
         flex-wrap: row wrap;
+        margin: 12% 0 0 0;
     }
     .head-text {
         font-size: 2.6em;
     }
     .co-vers {
-        height: 28%;
+        height: 36%;
         width: auto;
         top: 15%;
         margin: 12% 0 0 0;
@@ -207,10 +208,10 @@ nav a {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     #icon {
         display: inline-block;
-        margin-left: 40px;
+        margin-left: 20px;
     }
     .logo-text {
         font-size: 1.4em;
@@ -283,12 +284,13 @@ nav a {
     }
 }
 
-@media(max-width: 600px) {
+@media(min-width: 600px) and (max-width:800px) {
     #join-btn {
         height: 28%;
     }
     #icon {
         bottom: 14px;
+        margin-right: 12px;
     }
     .logo {
         height: 43px;
@@ -297,7 +299,7 @@ nav a {
         font-size: 1.2em;
     }
     nav a {
-        font-size: 1em;
+        font-size: 1.4em;
     }
     #join-btn {
         height: 6%;
@@ -327,14 +329,18 @@ nav a {
         width: auto;
         top: 7%;
     }
+    .mirco-phone {
+        height: 20vh;
+    }
 }
 
-@media (max-width:400px) {
+@media (min-width:300px) and (max-width:600px) {
     #join-btn {
         height: 12%;
     }
     #icon {
         bottom: 26px;
+        margin-right: 14px;
     }
     nav li {
         display: block;
@@ -345,7 +351,7 @@ nav a {
         font-size: 1.2em;
     }
     nav a {
-        font-size: 0.8em;
+        font-size: 1.4em;
     }
     .logo {
         height: 33px;
