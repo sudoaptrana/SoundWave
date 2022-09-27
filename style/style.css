@@ -187,7 +187,7 @@ nav a {
         margin-right: 20px;
     }
     nav a {
-        font-size: 1em;
+        font-size: 1.8em;
     }
     .container2 {
         display: flex;
@@ -299,7 +299,7 @@ nav a {
         font-size: 1.2em;
     }
     nav a {
-        font-size: 1.4em;
+        font-size: 1.8em;
     }
     #join-btn {
         height: 6%;
@@ -348,10 +348,10 @@ nav a {
         line-height: 30px;
     }
     .logo-text {
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
     nav a {
-        font-size: 1.4em;
+        font-size: 1.6rem;
     }
     .logo {
         height: 33px;
